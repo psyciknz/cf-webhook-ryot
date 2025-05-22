@@ -9,8 +9,8 @@ compatibility_date = "2021-11-19"
 
 [vars]
 WEBHOOK_SECRET="secret"
-ROCKET_CHAT_URL="https://testing-webhook.rocket.chat/hooks/XXX"
+RYOT_URL="https://testing-webhook.rocket.chat/hooks/XXX"
 
 [env.production.vars]
 WEBHOOK_SECRET="production-secret"
-ROCKET_CHAT_URL="https://testing-webhook.rocket.chat/hooks/XXX"
+RYOT_URL="https://testing-webhook.rocket.chat/hooks/XXX"
