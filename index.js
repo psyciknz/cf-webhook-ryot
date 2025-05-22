@@ -48,7 +48,7 @@ async function handleRequest(request) {
     }
 
     const response = await fetch(
-        ROCKET_CHAT_URL,
+        RYOT_URL,
         rocketReq,
     )
     const res = await response.json()
