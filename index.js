@@ -44,11 +44,11 @@ async function handleRequest(request) {
             'content-type': 'application/json',
         },
         method: 'POST',
-        body: JSON.stringify(rocketBody),
+        body: incReq,
     }
 
     const response = await fetch(
-        RYOT_URL,
+        RYOT_URL/WEBHOOK_SECRET,
         rocketReq,
     )
     const res = await response.json()
